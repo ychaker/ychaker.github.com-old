@@ -94,6 +94,9 @@ html {
 .right {
   float: right;
 }
+.twitter {
+  width: 400px;
+}
 .twitter-tweet {
   width: 300px;
   font-size: 12px;
