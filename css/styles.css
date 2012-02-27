@@ -94,6 +94,9 @@ html {
 .right {
   float: right;
 }
+.clear {
+  clear: both;
+}
 .twitter {
   width: 400px;
   position: absolute;
@@ -150,4 +153,57 @@ h1 img {
   box-shadow: 8px 8px 20px #888888;
   /* Opera 10.5, IE9, FF4+, Chrome 6+, iOS 5 */
 
+}
+#college,
+#newswise {
+  font-size: 18px;
+}
+#osc {
+  text-align: center;
+}
+#osc img {
+  width: 500px;
+}
+#newswise .logo {
+  text-align: center;
+  margin-bottom: 10px;
+}
+#newswise .logo img {
+  width: 300px;
+}
+#newswise img.newswise-search {
+  width: 550px;
+  height: 300px;
+  -webkit-box-shadow: 8px 8px 20px #888888;
+  /* Saf3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+
+  -moz-box-shadow: 8px 8px 20px #888888;
+  /* FF3.5 - 3.6 */
+
+  box-shadow: 8px 8px 20px #888888;
+  /* Opera 10.5, IE9, FF4+, Chrome 6+, iOS 5 */
+
+}
+#newswise .left,
+#newswise .right {
+  width: 400px;
+}
+#newswise .left img,
+#newswise .right img {
+  -webkit-box-shadow: 8px 8px 20px #888888;
+  /* Saf3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+
+  -moz-box-shadow: 8px 8px 20px #888888;
+  /* FF3.5 - 3.6 */
+
+  box-shadow: 8px 8px 20px #888888;
+  /* Opera 10.5, IE9, FF4+, Chrome 6+, iOS 5 */
+
+}
+#newswise ul {
+  margin-left: 10px;
+}
+#newswise ul li {
+  list-style: disc;
+  margin-bottom: 5px;
 }
