@@ -3,6 +3,21 @@
 @import "base";
 @import "twitter";
 
+/* overview step */
+
+#overview {
+    z-index: -1;
+    padding: 0;
+}
+
+/* on overview step everything is visible */
+
+#impress.step-overview .step {
+    opacity: 1;
+    cursor: pointer;
+}
+
+/* start step */
 h1 {
   text-align: center;
   font-size: 100px;
@@ -18,7 +33,7 @@ h1 {
 
 }
 
-#college, #newswise {
+#college  {
   font-size: 18px;
 }
 
@@ -30,7 +45,18 @@ h1 {
   }
 }
 
+#madison-county-schools, #wwweb {
+  font-size: 18px;
+
+  h2 {
+    text-align: center;
+    font-size: 32px;
+  }
+}
+
 #newswise {
+  font-size: 14px;
+
   .logo {
     text-align: center;
     margin-bottom: 10px;
@@ -43,6 +69,36 @@ h1 {
   img.newswise-search {
     width: 550px;
     height: 300px;
+  }
+
+  .left, .right {
+    width: 400px;
+  }
+
+  ul {
+    margin-left: 10px;
+
+    li {
+      list-style: disc;
+      margin-bottom: 5px;
+    }
+  }
+}
+
+#ticketfly {
+  font-size: 18px;
+
+  .logo {
+    text-align: center;
+    margin-bottom: 10px;
+
+    img {
+      width: 300px;
+    }
+  }
+
+  img {
+    width: 550px;
   }
 
   .left, .right {

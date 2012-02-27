@@ -97,6 +97,17 @@ html {
 .clear {
   clear: both;
 }
+.boxed {
+  -webkit-box-shadow: 8px 8px 20px #888888;
+  /* Saf3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+
+  -moz-box-shadow: 8px 8px 20px #888888;
+  /* FF3.5 - 3.6 */
+
+  box-shadow: 8px 8px 20px #888888;
+  /* Opera 10.5, IE9, FF4+, Chrome 6+, iOS 5 */
+
+}
 .twitter {
   width: 400px;
   position: absolute;
@@ -135,6 +146,17 @@ a.twitter-follow-button img {
   width: 50px;
   height: 50px;
 }
+/* overview step */
+#overview {
+  z-index: -1;
+  padding: 0;
+}
+/* on overview step everything is visible */
+#impress.step-overview .step {
+  opacity: 1;
+  cursor: pointer;
+}
+/* start step */
 h1 {
   text-align: center;
   font-size: 100px;
@@ -144,18 +166,8 @@ h1 img {
 }
 .profile-image img {
   width: 400px;
-  -webkit-box-shadow: 8px 8px 20px #888888;
-  /* Saf3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-
-  -moz-box-shadow: 8px 8px 20px #888888;
-  /* FF3.5 - 3.6 */
-
-  box-shadow: 8px 8px 20px #888888;
-  /* Opera 10.5, IE9, FF4+, Chrome 6+, iOS 5 */
-
 }
-#college,
-#newswise {
+#college {
   font-size: 18px;
 }
 #osc {
@@ -163,6 +175,18 @@ h1 img {
 }
 #osc img {
   width: 500px;
+}
+#madison-county-schools,
+#wwweb {
+  font-size: 18px;
+}
+#madison-county-schools h2,
+#wwweb h2 {
+  text-align: center;
+  font-size: 32px;
+}
+#newswise {
+  font-size: 14px;
 }
 #newswise .logo {
   text-align: center;
@@ -174,36 +198,39 @@ h1 img {
 #newswise img.newswise-search {
   width: 550px;
   height: 300px;
-  -webkit-box-shadow: 8px 8px 20px #888888;
-  /* Saf3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-
-  -moz-box-shadow: 8px 8px 20px #888888;
-  /* FF3.5 - 3.6 */
-
-  box-shadow: 8px 8px 20px #888888;
-  /* Opera 10.5, IE9, FF4+, Chrome 6+, iOS 5 */
-
 }
 #newswise .left,
 #newswise .right {
   width: 400px;
 }
-#newswise .left img,
-#newswise .right img {
-  -webkit-box-shadow: 8px 8px 20px #888888;
-  /* Saf3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-
-  -moz-box-shadow: 8px 8px 20px #888888;
-  /* FF3.5 - 3.6 */
-
-  box-shadow: 8px 8px 20px #888888;
-  /* Opera 10.5, IE9, FF4+, Chrome 6+, iOS 5 */
-
-}
 #newswise ul {
   margin-left: 10px;
 }
 #newswise ul li {
+  list-style: disc;
+  margin-bottom: 5px;
+}
+#ticketfly {
+  font-size: 18px;
+}
+#ticketfly .logo {
+  text-align: center;
+  margin-bottom: 10px;
+}
+#ticketfly .logo img {
+  width: 300px;
+}
+#ticketfly img {
+  width: 550px;
+}
+#ticketfly .left,
+#ticketfly .right {
+  width: 400px;
+}
+#ticketfly ul {
+  margin-left: 10px;
+}
+#ticketfly ul li {
   list-style: disc;
   margin-bottom: 5px;
 }
