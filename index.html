@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>Youssef Chaker</title>
+
+    <meta name="description" content="Youssef Chaker is a web developer based out of Beirut, Lebanon. A fellow WAHOO class of 2008. Using an engineer's problem solving enhanced with agile skills to deliver quality." />
+    <meta name="author" content="Youssef Chaker" />
+
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
+
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+</head>
+<body>
+
+<div id="impress" class="impress-not-supported">
+
+    <div class="fallback-message">
+        <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+        <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser. Upcoming version 10 of Internet Explorer <i>should</i> also handle it.</p>
+    </div>
+
+    <div id='start' class='step' data-x='0' data-y='0' data-scale='2'>
+    </div>
+    <div id='profile' class='step' data-x='0' data-y='0' data-scale='1'>
+      <h1>Youssef <img src='images/ychaker.png' /> Chaker</h1>
+      <div class='profile-image left'>
+          <img src='images/chalk.jpg' />
+      </div>
+
+      <div class='twitter right'>
+        <a href="https://twitter.com/ychaker" title="Follow @ychaker" class="twitter-follow-button">@ychaker</a>
+
+        <blockquote class="twitter-tweet"><p>best quote ever: "What's the fucking ROI of your mother?" never gets old.. cc @<a href="https://twitter.com/garyvee">garyvee</a></p>&mdash; Youssef Chaker (@ychaker) <a href="https://twitter.com/ychaker/status/172682671196094465" data-datetime="2012-02-23T14:02:11+00:00">February 23, 2012</a></blockquote>
+
+        <blockquote class="twitter-tweet tw-align-center"><p>Anyone looking for an agile coach/web developer? Contact me <a href="https://twitter.com/search/%2523Lebanon">#Lebanon</a> <a href="https://twitter.com/search/%2523MENA">#MENA</a> <a href="https://twitter.com/search/%2523agile">#agile</a> <a href="https://twitter.com/search/%2523development">#development</a> <a href="https://twitter.com/search/%2523web">#web</a></p>&mdash; Youssef Chaker (@ychaker) <a href="https://twitter.com/ychaker/status/172579853118349312" data-datetime="2012-02-23T07:13:38+00:00">February 23, 2012</a></blockquote>
+
+        <blockquote class="twitter-tweet tw-align-center"><p>As of yesterday (thx @<a href="https://twitter.com/LebaneseVoices">LebaneseVoices</a> 4 pointing this out) Im a walking billboard If u want something advertised u can give me a shirt 2 wear</p>&mdash; Youssef Chaker (@ychaker) <a href="https://twitter.com/ychaker/status/168985620130177024" data-datetime="2012-02-13T09:11:26+00:00">February 13, 2012</a></blockquote>
+      </div>
+
+      <script src="http://platform.linkedin.com/in.js" type="text/javascript"></script>
+      <script type="IN/MemberProfile" data-id="http://www.linkedin.com/in/ychaker" data-format="inline" data-related="false"></script>
+    </div>
+
+    <div id='college' class='step' data-x='-1000' data-y='0' data-scale='1'>
+        UVA
+    </div>
+
+</div>
+
+<!--
+
+    Hint is not related to impress.js in any way.
+
+    But it can show you how to use impress.js features in creative way.
+
+    When the presentation step is shown (selected) it's element get's the class of "active" and `#impress` root
+    element get's the class based on active step id `step-ID` (where ID is the step id)... It probably is not
+    so clear because of all these IDs in here, so for example when the first step (the one with id of `bored`)
+    is active, `#impress` element get a class of `step-bored`.
+
+    This class is used by this hint below. Check CSS file to see how it's shown with delayed CSS animation.
+
+-->
+<div class="hint">
+    <p>Use a spacebar or arrow keys to navigate</p>
+</div>
+<script>
+if ("ontouchstart" in document.documentElement) {
+    document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
+}
+</script>
+
+<script src="js/impress.js"></script>
+<script>impress();</script>
+
+<!--
+
+    The `impress()` function also gives you access to API to control the presentation.
+
+    Just store the result of the call:
+
+        var api = impress();
+
+    and you will get three functions you can call:
+
+        `api.next()` - moves to next step of the presentation,
+        `api.prev()` - moves to previous step of the presentation
+        `api.goto( stepElement ) - moves the presentation to given step element (the DOM element of the step).
+
+    You can also simply call `impress()` again to get the API, so `impress().next()` is also allowed.
+    Don't worry, it wont initialize the presentation again.
+
+    For some example uses of this API check the last part of the source of impress.js where the API
+    is used in event handlers.
+
+-->
+
+</body>
+</html>

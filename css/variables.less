@@ -1,0 +1,77 @@
+/* Reusable functions */
+
+.rounded-corners-specific (@radius_top: 5px, @radius_right: 5px, @radius_bottom: 5px, @radius_left: 5px) {
+	-webkit-border-radius: @radius_top @radius_right @radius_bottom @radius_left; /* Saf3-4, iOS 1-3.2, Android <1.6 */
+	   -moz-border-radius: @radius_top @radius_right @radius_bottom @radius_left;		/* FF1-3.6 */
+	        border-radius: @radius_top @radius_right @radius_bottom @radius_left; 				/* Opera 10.5, IE9, Saf5, Chrome, FF4, iOS 4, Android 2.1+ */
+
+	/* useful if you don't want a bg color from leaking outside the border: */
+  -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;
+}
+
+.rounded-corners (@radius: 5px) {
+	.rounded-corners-specific(@radius, @radius, @radius, @radius);
+}
+
+.box-shadows (@horizontal_offset: 1px, @vertical_offset: 1px, @blur_radius: 5px, @color: #777) {
+	-webkit-box-shadow: @horizontal_offset @vertical_offset @blur_radius @color;	/* Saf3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+	   -moz-box-shadow: @horizontal_offset @vertical_offset @blur_radius @color; 		/* FF3.5 - 3.6 */
+	        box-shadow: @horizontal_offset @vertical_offset @blur_radius @color;					/* Opera 10.5, IE9, FF4+, Chrome 6+, iOS 5 */
+}
+
+.inset-box-shadows (@horizontal_offset: 1px, @vertical_offset: 1px, @blur_radius: 1px, @color: #0b426c) {
+	-webkit-box-shadow: inset @horizontal_offset @vertical_offset @blur_radius @color;
+	   -moz-box-shadow: inset @horizontal_offset @vertical_offset @blur_radius @color;
+	        box-shadow: inset @horizontal_offset @vertical_offset @blur_radius @color;
+}
+
+.inset-box-shadows-double (@horizontal_offset: 1px, @vertical_offset: 1px, @blur_radius: 1px, @color: #0b426c, @horizontal_offset2: 1px, @vertical_offset2: 1px, @blur_radius2: 1px, @color2: #0b426c) {
+	-webkit-box-shadow: inset @horizontal_offset @vertical_offset @blur_radius @color, @horizontal_offset2 @vertical_offset2 @blur_radius2 @color2;
+	   -moz-box-shadow: inset @horizontal_offset @vertical_offset @blur_radius @color, @horizontal_offset2 @vertical_offset2 @blur_radius2 @color2;
+	        box-shadow: inset @horizontal_offset @vertical_offset @blur_radius @color, @horizontal_offset2 @vertical_offset2 @blur_radius2 @color2;
+}
+
+.text-shadows (@color: rgba(255, 255, 255, .5), @horizontal_offset: 1px, @vertical_offset: 1px, @blur_radius: 1px) {	
+	-webkit-text-shadow: @color @horizontal_offset @vertical_offset @blur_radius;
+     -moz-text-shadow: @color @horizontal_offset @vertical_offset @blur_radius;
+	        text-shadow: @color @horizontal_offset @vertical_offset @blur_radius;
+}
+
+/* Stuff from CSS3, Please */
+
+.box-gradient (@start_color: #444, @end_color: #999) {
+  background-color: @start_color;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(@start_color), to(@end_color)); /* Saf4+, Chrome */
+  background-image: -webkit-linear-gradient(top, @start_color, @end_color); /* Chrome 10+, Saf5.1+, iOS 5+ */
+  background-image:    -moz-linear-gradient(top, @start_color, @end_color); /* FF3.6 */
+  background-image:     -ms-linear-gradient(top, @start_color, @end_color); /* IE10 */
+  background-image:      -o-linear-gradient(top, @start_color, @end_color); /* Opera 11.10+ */
+  background-image:         linear-gradient(top, @start_color, @end_color);
+}
+
+.box-rgba (@red: 180, @green: 180, @blue: 180, @alfa: 0) {
+  background-color: transparent;
+  background-color: rgba(@red, @green, @blue, @alfa);  /* FF3+, Saf3+, Opera 10.10+, Chrome, IE9 */
+}
+
+.box-rotate (@angle: 10deg) {
+  -webkit-transform: rotate(@angle);  /* Saf3.1+, Chrome */
+     -moz-transform: rotate(@angle);  /* FF3.5+ */
+      -ms-transform: rotate(@angle);  /* IE9 */
+       -o-transform: rotate(@angle);  /* Opera 10.5 */
+          transform: rotate(@angle);
+}
+
+.box-transition (@property: all, @duration: 3s, @transition: ease-out) {
+  -webkit-transition: @property @duration @transition;  /* Saf3.2+, Chrome */
+     -moz-transition: @property @duration @transition;  /* FF4+ */
+      -ms-transition: @property @duration @transition;  /* IE10? */
+       -o-transition: @property @duration @transition;  /* Opera 10.5+ */
+          transition: @property @duration @transition;
+}
+
+.box-columns (@count) {
+  -webkit-column-count: @count;  -webkit-column-gap: 15px; /* Saf3, Chrome */
+     -moz-column-count: @count;     -moz-column-gap: 15px; /* FF3.5+ */
+          column-count: @count;          column-gap: 15px; /* Opera 11+ */
+}
