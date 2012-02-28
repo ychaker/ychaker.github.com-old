@@ -234,3 +234,16 @@ h1 img {
   list-style: disc;
   margin-bottom: 5px;
 }
+.jogabo {
+  text-align: center;
+}
+.jogabo.screenshot img {
+  width: 800px;
+  height: 500px;
+}
+.jogabo.info {
+  text-align: left;
+}
+.jogabo.app {
+  text-align: right;
+}
