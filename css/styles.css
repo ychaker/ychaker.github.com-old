@@ -258,6 +258,15 @@ h1 img {
   width: 600px;
   height: 400px;
 }
+#rails-rumble-info {
+  font-size: 26px;
+}
+#rails-rumble-info h2 {
+  font-size: 38px;
+}
+#rails-rumble-info div {
+  width: 400px;
+}
 .workshop {
   text-align: center;
 }
