@@ -247,3 +247,20 @@ h1 img {
 .jogabo.app {
   text-align: right;
 }
+.rumble {
+  text-align: center;
+}
+.rumble.azimuth img {
+  width: 600px;
+  height: 400px;
+}
+.rumble.deprecateme img {
+  width: 600px;
+  height: 400px;
+}
+.workshop {
+  text-align: center;
+}
+.workshop div {
+  margin: 0 auto;
+}
