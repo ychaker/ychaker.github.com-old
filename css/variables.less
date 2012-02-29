@@ -1,3 +1,14 @@
+@font-face {
+  font-family: 'Junction';
+  src:  url('fonts/Junction-webfont.eot');
+  src:  url('fonts/Junction-webfont.eot?iefix') format('eot'),
+        url('fonts/Junction-webfont.woff') format('woff'),
+        url('fonts/Junction-webfont.ttf') format('truetype'),
+        url('fonts/Junction-webfont.svg#webfontbWcdoU7W') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
 /* Reusable functions */
 
 .rounded-corners-specific (@radius_top: 5px, @radius_right: 5px, @radius_bottom: 5px, @radius_left: 5px) {
@@ -31,7 +42,7 @@
 	        box-shadow: inset @horizontal_offset @vertical_offset @blur_radius @color, @horizontal_offset2 @vertical_offset2 @blur_radius2 @color2;
 }
 
-.text-shadows (@color: rgba(255, 255, 255, .5), @horizontal_offset: 1px, @vertical_offset: 1px, @blur_radius: 1px) {	
+.text-shadows (@color: rgba(255, 255, 255, .5), @horizontal_offset: 1px, @vertical_offset: 1px, @blur_radius: 1px) {
 	-webkit-text-shadow: @color @horizontal_offset @vertical_offset @blur_radius;
      -moz-text-shadow: @color @horizontal_offset @vertical_offset @blur_radius;
 	        text-shadow: @color @horizontal_offset @vertical_offset @blur_radius;
