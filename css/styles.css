@@ -305,3 +305,26 @@ h1 img {
 .workshop div {
   margin: 0 auto;
 }
+#oss {
+  text-align: center;
+}
+#zeep-it,
+#sample-apps,
+#multi-recipient-threaded-messages {
+  font-size: 32px;
+}
+#zeep-it h2,
+#sample-apps h2,
+#multi-recipient-threaded-messages h2 {
+  font-size: 54px;
+}
+#zeep-it a,
+#sample-apps a,
+#multi-recipient-threaded-messages a {
+  color: #0099EE;
+}
+#zeep-it a:hover,
+#sample-apps a:hover,
+#multi-recipient-threaded-messages a:hover {
+  text-decoration: underline;
+}
