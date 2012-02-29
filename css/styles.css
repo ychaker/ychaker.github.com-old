@@ -265,14 +265,39 @@ h1 img {
   width: 600px;
   height: 400px;
 }
-#rails-rumble-info {
-  font-size: 26px;
-}
-#rails-rumble-info h2 {
+.rails-rumble-info {
   font-size: 38px;
 }
-#rails-rumble-info div {
-  width: 400px;
+.rails-rumble-info h2 {
+  font-size: 54px;
+}
+.agilecville {
+  width: 200px;
+  position: absolute;
+  top: -60px;
+  right: 0px;
+  -webkit-transform: rotatez(-30deg);
+  -moz-transform: rotatez(-30deg);
+  -ms-transform: rotatez(-30deg);
+  -o-transform: rotatez(-30deg);
+  transform: rotatez(-30deg);
+  -webkit-transform: rotatey(-30deg);
+  -moz-transform: rotatey(-30deg);
+  -ms-transform: rotatey(-30deg);
+  -o-transform: rotatey(-30deg);
+  transform: rotatey(-30deg);
+}
+#agile:hover .agilecville {
+  -webkit-transform: rotatez(0deg);
+  -moz-transform: rotatez(0deg);
+  -ms-transform: rotatez(0deg);
+  -o-transform: rotatez(0deg);
+  transform: rotatez(0deg);
+  -webkit-transform: rotatey(0deg);
+  -moz-transform: rotatey(0deg);
+  -ms-transform: rotatey(0deg);
+  -o-transform: rotatey(0deg);
+  transform: rotatey(0deg);
 }
 .workshop {
   text-align: center;
