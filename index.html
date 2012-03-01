@@ -477,20 +477,6 @@
     </div>
 </div>
 
-<!--
-
-    Hint is not related to impress.js in any way.
-
-    But it can show you how to use impress.js features in creative way.
-
-    When the presentation step is shown (selected) it's element get's the class of "active" and `#impress` root
-    element get's the class based on active step id `step-ID` (where ID is the step id)... It probably is not
-    so clear because of all these IDs in here, so for example when the first step (the one with id of `bored`)
-    is active, `#impress` element get a class of `step-bored`.
-
-    This class is used by this hint below. Check CSS file to see how it's shown with delayed CSS animation.
-
--->
 <div class="hint">
     <p>Use a spacebar or arrow keys to navigate</p>
 </div>
@@ -503,27 +489,20 @@ if ("ontouchstart" in document.documentElement) {
 <script src="js/impress.js"></script>
 <script>impress();</script>
 
-<!--
+<script type="text/javascript">
 
-    The `impress()` function also gives you access to API to control the presentation.
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-20063217-1']);
+  _gaq.push(['_setDomainName', 'youhoo.im']);
+  _gaq.push(['_trackPageview']);
 
-    Just store the result of the call:
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
 
-        var api = impress();
-
-    and you will get three functions you can call:
-
-        `api.next()` - moves to next step of the presentation,
-        `api.prev()` - moves to previous step of the presentation
-        `api.goto( stepElement ) - moves the presentation to given step element (the DOM element of the step).
-
-    You can also simply call `impress()` again to get the API, so `impress().next()` is also allowed.
-    Don't worry, it wont initialize the presentation again.
-
-    For some example uses of this API check the last part of the source of impress.js where the API
-    is used in event handlers.
-
--->
+</script>
 
 </body>
 </html>

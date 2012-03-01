@@ -1,0 +1,131 @@
+@import "reset.css";
+@font-face {
+  font-family: 'Junction';
+  src: url('fonts/Junction-webfont.eot');
+  src: url('fonts/Junction-webfont.eot?iefix') format('eot'), url('fonts/Junction-webfont.woff') format('woff'), url('fonts/Junction-webfont.ttf') format('truetype'), url('fonts/Junction-webfont.svg#webfontbWcdoU7W') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Reusable functions */
+/* Stuff from CSS3, Please */
+body,
+html {
+  min-width: 600px;
+  font-family: Junction, sans-serif, georgia;
+}
+/* COMMON STEP STYLES */
+.step {
+  width: 900px;
+  padding: 40px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 48px;
+  line-height: 1.5;
+  /* fade out inactive slides */
+
+  -webkit-transition: opacity 1s;
+  -moz-transition: opacity 1s;
+  -ms-transition: opacity 1s;
+  -o-transition: opacity 1s;
+  transition: opacity 1s;
+}
+.step:not(.active) {
+  opacity: 0.3;
+}
+/* hint on the first slide */
+.hint {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 200px;
+  background: rgba(0, 0, 0, 0.5);
+  color: #EEE;
+  text-align: center;
+  font-size: 50px;
+  padding: 20px;
+  z-index: 100;
+  opacity: 0;
+  -webkit-transform: translatey(400px);
+  -moz-transform: translatey(400px);
+  -ms-transform: translatey(400px);
+  -o-transform: translatey(400px);
+  transform: translatey(400px);
+  -webkit-transition: opacity 1s, -webkit-transform 0.5s 1s;
+  -moz-transition: opacity 1s, -moz-transform 0.5s 1s;
+  -ms-transition: opacity 1s, -ms-transform 0.5s 1s;
+  -o-transition: opacity 1s, -o-transform 0.5s 1s;
+  transition: opacity 1s,         transform 0.5s 1s;
+}
+.step-start + .hint {
+  opacity: 1;
+  -webkit-transition: opacity 1s 5s, -webkit-transform 0.5s;
+  -moz-transition: opacity 1s 5s, -moz-transform 0.5s;
+  -ms-transition: opacity 1s 5s, -ms-transform 0.5s;
+  -o-transition: opacity 1s 5s, -o-transform 0.5s;
+  transition: opacity 1s 5s,         transform 0.5s;
+  -webkit-transform: translatey(0px);
+  -moz-transform: translatey(0px);
+  -ms-transform: translatey(0px);
+  -o-transform: translatey(0px);
+  transform: translatey(0px);
+}
+/* IMPRESS NOT SUPPORTED STYLES */
+.fallback-message {
+  font-family: sans-serif;
+  line-height: 1.3;
+  display: none;
+  width: 780px;
+  padding: 10px 10px 0;
+  margin: 20px auto;
+  border-radius: 10px;
+  border: 1px solid #E4C652;
+  background: #EEDC94;
+}
+.fallback-message p {
+  margin-bottom: 10px;
+}
+.fallback-message .step {
+  position: relative;
+  opacity: 1;
+  margin: 20px auto;
+}
+.fallback-message .fallback-message {
+  display: block;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.clear {
+  clear: both;
+}
+.boxed {
+  -webkit-box-shadow: 8px 8px 20px #888888;
+  /* Saf3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+
+  -moz-box-shadow: 8px 8px 20px #888888;
+  /* FF3.5 - 3.6 */
+
+  box-shadow: 8px 8px 20px #888888;
+  /* Opera 10.5, IE9, FF4+, Chrome 6+, iOS 5 */
+
+}
+body {
+  text-align: center;
+}
+section {
+  margin: 40px auto;
+}
+h1 {
+  font-size: 72px;
+  margin: 20px auto;
+}
+h2 {
+  font-size: 42px;
+  margin: 20px auto;
+}
