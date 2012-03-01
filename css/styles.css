@@ -780,7 +780,8 @@ h1 img {
 #sunspot-admin,
 #sunspotify,
 #sunspotify-admin-pannel,
-#sunspotify-demo {
+#sunspotify-demo,
+#whichrubycmsshouldiuse {
   font-size: 32px;
 }
 #zeep-it h2,
@@ -792,7 +793,8 @@ h1 img {
 #sunspot-admin h2,
 #sunspotify h2,
 #sunspotify-admin-pannel h2,
-#sunspotify-demo h2 {
+#sunspotify-demo h2,
+#whichrubycmsshouldiuse h2 {
   font-size: 54px;
 }
 #zeep-it a,
@@ -804,7 +806,8 @@ h1 img {
 #sunspot-admin a,
 #sunspotify a,
 #sunspotify-admin-pannel a,
-#sunspotify-demo a {
+#sunspotify-demo a,
+#whichrubycmsshouldiuse a {
   color: #0099EE;
 }
 #zeep-it a:hover,
@@ -816,7 +819,8 @@ h1 img {
 #sunspot-admin a:hover,
 #sunspotify a:hover,
 #sunspotify-admin-pannel a:hover,
-#sunspotify-demo a:hover {
+#sunspotify-demo a:hover,
+#whichrubycmsshouldiuse a:hover {
   text-decoration: underline;
 }
 #sunspot-admin {
