@@ -2,6 +2,7 @@
 @import "variables";
 @import "base";
 @import "twitter";
+@import "buttons";
 
 /* overview step */
 
@@ -209,7 +210,14 @@ h1 {
 
 #zeep-it,
 #sample-apps,
-#multi-recipient-threaded-messages {
+#multi-recipient-threaded-messages,
+#solr-intro,
+#acts-as-solr,
+#sunspot,
+#sunspot-admin,
+#sunspotify,
+#sunspotify-admin-pannel,
+#sunspotify-demo {
   h2 {
     font-size: 54px;
   }
@@ -223,4 +231,41 @@ h1 {
   }
 
   font-size: 32px;
+}
+
+#sunspot-admin {
+  font-size: 26px;
+}
+
+#sunspotify-admin-pannel {
+  .left, .right {
+    width: 400px;
+  }
+
+  img {
+    height: 600px;
+  }
+}
+
+#cool {
+  .right {
+    h2 {
+      font-size: 54px;
+    }
+
+    a {
+      color: #0099EE;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+
+    font-family: Junction, sans-serif, georgia;
+    font-size: 32px;
+  }
+
+  .left, .right {
+    width: 400px;
+  }
 }

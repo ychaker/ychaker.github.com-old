@@ -258,6 +258,203 @@
       </p>
     </div>
 
+    <div id='solr-intro' class='step' data-x='-1550' data-y='700' data-scale='0.5' data-rotate='0'>
+      <h2>Solr</h2>
+      <p>
+        Solr is an open-source search server based on the Lucene Java search library. It is a very powerful tool but that has a steep learning curve and requires configuration in XML files.
+      </p>
+      <p>
+        <strong>Solr link:</strong> <a href='http://lucene.apache.org/solr' target='_blank'>http://lucene.apache.org/solr</a>
+      </p>
+      <p>So...</p>
+    </div>
+
+    <div id='acts-as-solr' class='step' data-x='-1550' data-y='700' data-z='-500' data-scale='0.5' data-rotate='0'>
+      <h2>How Can We Make this Easier?</h2>
+      <p>
+        In the Ruby world, a couple of plugins/gems exist to help ease the pain. One of them is acts_as_solr.
+      </p>
+      <p>
+        <strong>Repository link:</strong> <a href='https://github.com/mattmatt/acts_as_solr' target='_blank'>https://github.com/mattmatt/acts_as_solr</a>
+      </p>
+      <p>
+        But the Ruby CMS world had not made use of that so I created a Radiant CMS extension based on acts_as_solr
+      </p>
+      <p>
+        <strong>Repository link:</strong> <a href='https://github.com/ychaker/radiant-acts_as_solr-extension' target='_blank'>https://github.com/ychaker/radiant-acts_as_solr-extension</a>
+      </p>
+    </div>
+
+    <div id='sunspot' class='step' data-x='-1550' data-y='700' data-z='-1000' data-scale='0.5' data-rotate='0'>
+      <h2>But...</h2>
+      <p>
+        acts_as_solr was basically abandoned when another leader was introduced, which is the sunspot gem along with sunspot-rails.
+      </p>
+      <p>
+        <strong>Repository link:</strong> <a href='https://github.com/sunspot/sunspot' target='_blank'>https://github.com/sunspot/sunspot</a>
+      </p>
+    </div>
+
+    <div id='sunspot-admin' class='step' data-x='-1550' data-y='700' data-z='-1500' data-scale='0.5' data-rotate='0'>
+      <h2>Sunspot Admin</h2>
+      <p>
+        Yet again, using sunspot only gave developers a DSL and an interface to Solr but they still had to understand the underlying system to get it to work. Knowing the pain of it and how most basic application need a simpler plug and play solution, I created Sunspot Admin which makes managing Solr Search using the Sunspot gem easier. The purpose of this plugin is to provide an admin interface for non-technical people and allow for: Selecting which application models/attributes to index through a simple interface, manual reindexing, and starting the Solr server through the web admin.
+      </p>
+      <p>
+        <strong>Repository link:</strong> <a href='https://github.com/ychaker/sunspot_admin' target='_blank'>https://github.com/ychaker/sunspot_admin</a>
+      </p>
+    </div>
+
+    <div id='sunspotify' class='step' data-x='-1550' data-y='700' data-z='-2000' data-scale='0.5' data-rotate='0'>
+      <h2>Sunspotify</h2>
+      <p>
+        What I had done in Sunspot Admin was then extracted out and cleaned up into a better Rails plugin (the aim was then to make this a Radiant extension as well), called Sunspotify. It also gave default behavior for the search page with the ability to customize the views.
+      </p>
+      <p>
+        <strong>Repository link:</strong> <a href='https://github.com/ychaker/sunspotify' target='_blank'>https://github.com/ychaker/sunspotify</a>
+      </p>
+      <p>
+        Sunspotify came with a cool admin interface
+      </p>
+    </div>
+
+    <div id='sunspotify-admin-pannel' class='step' data-x='-1550' data-y='700' data-z='-2500' data-scale='0.5' data-rotate='0'>
+      <div class='left'>
+        <h2>This,</h2>
+        <p>
+          Was implemented where more than 80% of it was pure HTML5 and CSS3, without any images.
+        </p>
+      </div>
+      <div class='right'>
+        <p>
+          <img src='images/sunspot mockup smaller2.png' class='boxed' />
+        </p>
+      </div>
+    </div>
+
+    <div id='cool' class='step' data-x='-1550' data-y='700' data-z='-3000' data-scale='0.5' data-rotate='0'>
+      <div class='left'>
+        <div class="power_button_base_border">
+          <div class="power_button_base_gradient">
+            <div class="power_button_inner_glow">
+              <div class="power_button_top">
+                  <div class="power_button_light_rim_on">
+                    <div class="power_button_light_on">
+                    </div><!--power_button_light_on-->
+                  </div><!--power_button_light_rim_on-->
+              </div><!--power_button_top-->
+              <div class="power_button_bottom">
+              </div><!--power_button_bottom-->
+              <div class="power_button_flare">
+              </div><!--power_button_flare-->
+            </div><!--power_button_inner_glow-->
+          </div><!--power_button_base_gradient-->
+        </div> <!--power_button_base_border-->
+
+        <div class="power_button_base_border">
+          <div class="power_button_base_gradient">
+            <div class="power_button_inner_glow_off">
+              <div class="power_button_top_off">
+              </div><!--power_button_top_off-->
+              <div class="power_button_bottom_off">
+              </div><!--power_button_bottom_off-->
+              <div class="power_button_flare_off">
+              </div><!--power_button_flare_off-->
+              <div class="power_button_light_rim_off">
+                <div class="power_button_light_off">
+                </div><!--power_button_light_off-->
+              </div><!--power_button_light_rim_off-->
+            </div><!--power_button_inner_glow_off-->
+          </div><!--power_button_base_gradient-->
+        </div> <!--power_button_base_border-->
+
+        <div class="index_button_base_border">
+          <div class="index_button_base_gradient">
+            <div class="index_button_rim">
+              <div class="index_button_fill"></div><!--index_button_fill-->
+            </div><!--index_button_rim-->
+          </div><!--index_button_base_border-->
+        </div> <!--index_button_base_gradient-->
+
+        <div class="index_button_base_border">
+          <div class="index_button_base_gradient">
+            <div class="index_button_rim_pressed">
+              <div class="index_button_fill_pressed"></div><!--index_button_fill_pressed-->
+            </div><!--index_button_rim_pressed-->
+          </div><!--index_button_base_border-->
+        </div> <!--index_button_base_gradient-->
+
+        <div class="add_button">
+          <div class="add_button_on">
+            <div class="add_button_center_border_on">
+                <div class="button_text add_button_center_on">
+                    <strong>add</strong>
+                </div><!--add_button_center_on-->
+            </div><!--add_button_center_border_on-->
+          </div><!--add_button_on-->
+        </div> <!--add_button-->
+
+        <div class="indexed_light_on">
+                  <div class="button_text text">
+                    indexed
+                  </div><!--button_text text-->
+        </div> <!--indexed_light_on-->
+
+        <div class="indexed_item">
+                  <div class="item_display">
+                    <div class="text"><strong>name:string</strong></div>
+                  </div><!--item display-->
+        </div> <!--indexed-->
+
+
+        <div class="add_button">
+          <div class="add_button_border_off">
+            <div class="add_button_center_border_off">
+                <div class="button_text add_button_center_off">
+                    <strong>add</strong>
+                </div><!--add_button_center_off-->
+            </div><!--add_button_center_border_off-->
+          </div><!--add_button_border_off-->
+        </div> <!--add_button-->
+
+
+        <div class="indexed_light_off">
+                  <div class="button_text text">
+                    indexed
+                  </div><!--button_text text-->
+        </div> <!--indexed_light_off-->
+
+        <div class="unindexed_item">
+                  <div class="item_display">
+                    <div class="text"><strong>name:string</strong></div>
+                  </div><!--item display-->
+        </div> <!--indexed-->
+      </div>
+
+      <div class='right'>
+        <h2>A Sample</h2>
+        <p>
+          As a sample, what's on the left is done purely with HTML5 and CSS3.
+        </p>
+        <p>
+          NO IMAGES!
+        </p>
+        <p>
+          Isn't that cool? :)
+        </p>
+      </div>
+    </div>
+
+    <div id='sunspotify-demo' class='step' data-x='-1550' data-y='700' data-z='-3500' data-scale='0.5' data-rotate='0'>
+      <h2>Demo</h2>
+      <p>
+        I've setup a semi-functional demo for you to play around with (semi-functional because it uses a web service called Web Solr, that limits some functionality).
+      </p>
+      <p>
+        <strong>Demo link:</strong> <a href='http://sunspotify-demo.heroku.com/' target='_blank'>http://sunspotify-demo.heroku.com/</a>
+      </p>
+    </div>
+
     <div id='tedxbeirut' class='step' data-x='0' data-y='600' data-z='600' data-scale='1' data-rotate-x='-90' data-rotate-y='0'>
       <img src='images/TEDxBeirut-logo.png' /><br />
       <img src='images/tedxbeirut.png' />
