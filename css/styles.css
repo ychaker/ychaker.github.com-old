@@ -711,22 +711,12 @@ h1 img {
   width: 800px;
   height: 500px;
 }
-.jogabo.info {
-  text-align: left;
-}
+.jogabo.info,
 .jogabo.app {
-  text-align: right;
+  text-align: left;
 }
 .rumble {
   text-align: center;
-}
-.rumble.azimuth img {
-  width: 600px;
-  height: 400px;
-}
-.rumble.deprecateme img {
-  width: 600px;
-  height: 400px;
 }
 .rails-rumble-info {
   font-size: 38px;
@@ -734,33 +724,25 @@ h1 img {
 .rails-rumble-info h2 {
   font-size: 54px;
 }
-.agilecville {
-  width: 200px;
-  position: absolute;
-  top: -60px;
-  right: 0px;
-  -webkit-transform: rotatez(-30deg);
-  -moz-transform: rotatez(-30deg);
-  -ms-transform: rotatez(-30deg);
-  -o-transform: rotatez(-30deg);
-  transform: rotatez(-30deg);
-  -webkit-transform: rotatey(-30deg);
-  -moz-transform: rotatey(-30deg);
-  -ms-transform: rotatey(-30deg);
-  -o-transform: rotatey(-30deg);
-  transform: rotatey(-30deg);
+#agile {
+  font-size: 32px;
 }
-#agile:hover .agilecville {
-  -webkit-transform: rotatez(0deg);
-  -moz-transform: rotatez(0deg);
-  -ms-transform: rotatez(0deg);
-  -o-transform: rotatez(0deg);
-  transform: rotatez(0deg);
-  -webkit-transform: rotatey(0deg);
-  -moz-transform: rotatey(0deg);
-  -ms-transform: rotatey(0deg);
-  -o-transform: rotatey(0deg);
-  transform: rotatey(0deg);
+#agile h2 {
+  text-align: center;
+  font-size: 54px;
+}
+#agile ul {
+  margin-left: 10px;
+}
+#agile ul li {
+  list-style: disc;
+  margin-bottom: 5px;
+}
+#agile a {
+  color: #0099EE;
+}
+#agile a:hover {
+  text-decoration: underline;
 }
 .workshop {
   text-align: center;
@@ -768,8 +750,34 @@ h1 img {
 .workshop div {
   margin: 0 auto;
 }
-#oss {
+#oss,
+#whichrubycmsshouldiuse {
   text-align: center;
+}
+#tedxbeirut {
+  text-align: center;
+}
+#tedxbeirut img {
+  width: 600px;
+}
+#i-am-youssef-chaker {
+  text-align: center;
+}
+#i-am-youssef-chaker img {
+  width: 300px;
+}
+#i-am-youssef-chaker a {
+  color: #0099EE;
+}
+#i-am-youssef-chaker a:hover {
+  text-decoration: underline;
+}
+#i-am-youssef-chaker .left,
+#i-am-youssef-chaker .right {
+  width: 400px;
+}
+#i-am-youssef-chaker .twitter {
+  top: 20px;
 }
 #zeep-it,
 #sample-apps,

@@ -126,31 +126,14 @@ h1 {
     }
   }
 
-  &.info {
-    text-align: left;
-  }
-
+  &.info,
   &.app {
-    text-align: right;
+    text-align: left;
   }
 }
 
 .rumble {
   text-align: center;
-
-  &.azimuth {
-    img {
-      width: 600px;
-      height: 400px;
-    }
-  }
-
-  &.deprecateme {
-    img {
-      width: 600px;
-      height: 400px;
-    }
-  }
 }
 
 .rails-rumble-info {
@@ -161,38 +144,29 @@ h1 {
   }
 }
 
-.agilecville {
-  width: 200px;
-  position: absolute;
-  top: -60px;
-  right: 0px;
+#agile {
+  font-size: 32px;
 
-  -webkit-transform: rotateZ(-30deg);
-  -moz-transform:    rotateZ(-30deg);
-  -ms-transform:     rotateZ(-30deg);
-  -o-transform:      rotateZ(-30deg);
-  transform:         rotateZ(-30deg);
+  h2 {
+    text-align: center;
+    font-size: 54px;
+  }
 
-  -webkit-transform: rotateY(-30deg);
-  -moz-transform:    rotateY(-30deg);
-  -ms-transform:     rotateY(-30deg);
-  -o-transform:      rotateY(-30deg);
-  transform:         rotateY(-30deg);
-}
+  ul {
+    margin-left: 10px;
 
-#agile:hover {
-  .agilecville {
-    -webkit-transform: rotateZ(0deg);
-    -moz-transform:    rotateZ(0deg);
-    -ms-transform:     rotateZ(0deg);
-    -o-transform:      rotateZ(0deg);
-    transform:         rotateZ(0deg);
+    li {
+      list-style: disc;
+      margin-bottom: 5px;
+    }
+  }
 
-    -webkit-transform: rotateY(0deg);
-    -moz-transform:    rotateY(0deg);
-    -ms-transform:     rotateY(0deg);
-    -o-transform:      rotateY(0deg);
-    transform:         rotateY(0deg);
+  a {
+    color: #0099EE;
+
+    &:hover {
+      text-decoration: underline;
+    }
   }
 }
 
@@ -204,8 +178,41 @@ h1 {
   }
 }
 
-#oss {
+#oss,
+#whichrubycmsshouldiuse {
   text-align: center;
+}
+
+#tedxbeirut {
+  text-align: center;
+
+  img {
+    width: 600px;
+  }
+}
+
+#i-am-youssef-chaker {
+  text-align: center;
+
+  img {
+    width: 300px;
+  }
+
+  a {
+    color: #0099EE;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .left, .right {
+    width: 400px;
+  }
+
+  .twitter {
+    top: 20px;
+  }
 }
 
 #zeep-it,
