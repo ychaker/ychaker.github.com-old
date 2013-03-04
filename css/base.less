@@ -1,4 +1,4 @@
-body, html {
+1body, html {
   min-width: 600px;
   font-family: Junction, sans-serif, georgia;
 }
@@ -62,7 +62,9 @@ body, html {
   transition:         opacity 1s,         transform 0.5s 1s;
 }
 
-.step-start + .hint {
+.impress-enabled .hint { display: block }
+
+.impress-on-start .hint {
   opacity: 1;
 
   -webkit-transition: opacity 1s 5s, -webkit-transform 0.5s;
@@ -102,13 +104,16 @@ body, html {
     opacity: 1;
     margin: 20px auto;
   }
+}
 
-  .fallback-message {
-    display: block;
-  }
+.impress-supported .fallback-message {
+  display: none;
 }
 
 .left { float: left; }
 .right { float: right; }
 .clear { clear: both; }
 .boxed { .box-shadows(8px, 8px, 20px, #888); }
+
+.impress-enabled          { pointer-events: none }
+.impress-enabled #impress { pointer-events: auto }
