@@ -6,7 +6,7 @@
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <title>Youssef Chaker</title>
 
-  <meta name="description" content="Youssef Chaker is a web developer based out of Beirut, Lebanon. WAHOO class of 2008. Using an engineer's problem solving enhanced with agile skills to deliver quality. I Am Youssef Chaker" />
+  <meta name="description" content="Youssef Chaker is a web developer based out of Beirut, Lebanon. WAHOO class of 2008. Using an engineer's problem solving enhanced with agile skills to deliver quality." />
   <meta name="author" content="Youssef Chaker" />
 
   <link rel="stylesheet" type="text/css" href="css/styles.css">
@@ -15,20 +15,18 @@
 
   <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 </head>
+<body>
 
-<body class="impress-not-supported">
+  <div id="impress" class="impress-not-supported">
 
-  <div class="fallback-message">
+    <div class="fallback-message">
       <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
-      <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
-  </div>
-
-
-  <div id="impress">
-    <div id='start' class='step' data-x='-2000' data-y='0' data-scale='2'>
+      <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser. Upcoming version 10 of Internet Explorer <i>should</i> also handle it.</p>
     </div>
 
-    <div id='profile' class='step' data-x='-2000' data-y='0' data-scale='1'>
+    <div id='start' class='step' data-x='0' data-y='0' data-scale='2'>
+    </div>
+    <div id='profile' class='step' data-x='0' data-y='0' data-scale='1'>
       <h1>Youssef <img src='images/ychaker.png' /> Chaker</h1>
       <div class='profile-image left'>
         <img src='images/chalk.jpg' class='boxed' />
@@ -41,13 +39,13 @@
 
         <blockquote class="twitter-tweet"><p>best quote ever: "What's the fucking ROI of your mother?" never gets old.. cc @<a href="https://twitter.com/garyvee">garyvee</a></p>&mdash; Youssef Chaker (@ychaker) <a href="https://twitter.com/ychaker/status/172682671196094465" data-datetime="2012-02-23T14:02:11+00:00">February 23, 2012</a></blockquote>
 
-        <!-- <blockquote class="twitter-tweet"><p>As of yesterday (thx @<a href="https://twitter.com/LebaneseVoices">LebaneseVoices</a> 4 pointing this out) Im a walking billboard If u want something advertised u can give me a shirt 2 wear</p>&mdash; Youssef Chaker (@ychaker) <a href="https://twitter.com/ychaker/status/168985620130177024" data-datetime="2012-02-13T09:11:26+00:00">February 13, 2012</a></blockquote> -->
+        <blockquote class="twitter-tweet"><p>As of yesterday (thx @<a href="https://twitter.com/LebaneseVoices">LebaneseVoices</a> 4 pointing this out) Im a walking billboard If u want something advertised u can give me a shirt 2 wear</p>&mdash; Youssef Chaker (@ychaker) <a href="https://twitter.com/ychaker/status/168985620130177024" data-datetime="2012-02-13T09:11:26+00:00">February 13, 2012</a></blockquote>
 
         <script src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
       </div>
     </div>
 
-    <div id='college' class='step' data-x='-1000' data-y='0' data-scale='1' data-rotate='0'>
+    <div id='college' class='step' data-x='-1100' data-y='-700' data-scale='1' data-rotate='0'>
       <p>
         <strong>University of Virginia, School of Engineering and Applied Science, Charlottesville, VA Degree: B.S. Computer Engineering, Class of 2008</strong><br />
         <strong>Thesis:</strong> Designing and Building an Energy Responsible Data Center<br />
@@ -63,11 +61,11 @@
       </p>
     </div>
 
-    <div id='osc' class='step' data-x='-200' data-y='-600' data-scale='0.5' data-rotate='0'>
+    <div id='osc' class='step' data-x='-100' data-y='-700' data-scale='1' data-rotate='0'>
       <a href='http://o19s.com' title='OSC' target='_blank'><img src='images/osc.png' /></a>
     </div>
 
-    <div id='madison-county-schools' class='step' data-x='-200' data-y='-500' data-z='0' data-scale='0.5' data-rotate='0'>
+    <div id='madison-county-schools' class='step' data-x='-500' data-y='-700' data-z='0' data-scale='0.25' data-rotate-x='-90' data-rotate-y='90'>
       <h2>MADISON COUNTY SCHOOLS</h2>
       <p>
         Consulted with Madison County Director of Information Technology on moving to a virtualized server environment to reduce server footprint and costs. <br />
@@ -76,7 +74,7 @@
       </p>
     </div>
 
-    <div id='newswise' class='step' data-x='-200' data-y='-200' data-z='0' data-scale='0.5' data-rotate='0'>
+    <div id='newswise' class='step' data-x='-200' data-y='-700' data-z='0' data-scale='0.25' data-rotate-x='-90' data-rotate-y='90'>
       <div class='clear logo'><a href='http://newswise.com' title='Newswise' target='_blank'><img src='images/newswise-logo-2.png' /></a></div>
       <div class='left'>
         <p>
@@ -98,7 +96,7 @@
       </div>
     </div>
 
-    <div id='ticketfly' class='step' data-x='-200' data-y='200' data-z='0' data-scale='0.5' data-rotate='0'>
+    <div id='ticketfly' class='step' data-x='100' data-y='-700' data-z='0' data-scale='0.25' data-rotate-x='-90' data-rotate-y='90'>
       <div class='clear logo'><a href='http://ticketfly.com' title='TicketFly' target='_blank'><img src='images/tfly-logo.png' /></a></div>
       <div class='left'>
         <ul>
@@ -109,6 +107,8 @@
           <li>Wrote a <strong>WordPress plugin</strong> to serve as a <strong>OAuth consumer</strong> of the <strong>TicketFly API</strong></li>
           <li>Integrated the <strong>Facebook Graph API</strong> functionality into the user accounts application</li>
         </ul>
+
+
       </div>
       <div class='right'>
         <img src='images/tfly-myaccount.png' class='boxed' /><br />
@@ -116,7 +116,7 @@
       </div>
     </div>
 
-    <div id='wwweb' class='step' data-x='-200' data-y='500' data-z='0' data-scale='0.5' data-rotate='0'>
+    <div id='wwweb' class='step' data-x='400' data-y='-700' data-z='0' data-scale='0.25' data-rotate-x='-90' data-rotate-y='90'>
       <h2>WORKWORLDWEB</h2>
       <p>
         Developed a web based version of the Virginia Commonwealth University WorkWorld desktop application using Ruby on Rails. Implemented an easy and flexible admin interface that allows the VCU team to create and manage questions and question groups to be displayed to users according to specific display rules. Developed a <strong>workflow engine</strong> similar to a state machine for questions and their groups with a behavior dependent on the user's input and previously saved answers. <strong>Over 200 RSpec and Cucumber tests</strong> verify the workflow engine.<br />Administrators can <strong>embed Ruby code</strong> while creating questions in order to setup context specific display rules that rely on users' answers, as well as provide numerical results after completion of the workflow.<br />
@@ -124,11 +124,59 @@
       </p>
     </div>
 
-    <div id='rails-rumble' class='step rumble' data-x='500' data-y='-600' data-scale='0.5' data-rotate='0'>
+    <div id='jogabo' class='step jogabo' data-x='1100' data-y='-700' data-scale='1' data-rotate='0'>
+      <a href='http://jogabo.com' title='Jogabo' target='_blank'><img src='images/jogabo.png' /></a>
+    </div>
+
+    <div id='jogabo-landing' class='step jogabo screenshot' data-x='700' data-y='-950' data-scale='0.5' data-rotate='0'>
+      <img src='images/jogabo-landing.png' class='boxed' />
+    </div>
+
+    <div id='jogabo-discover-games' class='step jogabo screenshot' data-x='1500' data-y='-950' data-scale='0.5' data-rotate='0'>
+      <img src='images/jogabo-discover-games.png' class='boxed' />
+    </div>
+
+    <div id='jogabo-discover-players' class='step jogabo screenshot' data-x='1500' data-y='-450' data-scale='0.5' data-rotate='0'>
+      <img src='images/jogabo-discover-players.png' class='boxed' />
+    </div>
+
+    <div id='jogabo-game' class='step jogabo screenshot' data-x='700' data-y='-450' data-scale='0.5' data-rotate='0'>
+      <img src='images/jogabo-game.png' class='boxed' />
+    </div>
+
+    <div id='jogabo-info' class='step jogabo info' data-x='700' data-y='-700' data-scale='0.5' data-rotate='0'>
+      <strong>Co-Founder</strong><br />
+      <strong>CTO</strong><br />
+      Virginia, Marrakech, Beirut, London, Paris, Santiago (Start-Up Chile)
+    </div>
+
+    <div id='jogabo-app' class='step jogabo app' data-x='1500' data-y='-700' data-scale='0.5' data-rotate='0'>
+      Rails 3.0 -> Rails 3.2<br />
+      Ruby 1.9.2 -> Ruby 1.9.3<br />
+      TDD, BDD (RSpec, Cucumber), Heroku, Linode, Janrain, Postmark, New Relic, Woopra, KISSmetrics, 37signals suite
+    </div>
+
+    <div id='rails-rumble' class='step rumble' data-x='1100' data-y='200' data-scale='1' data-rotate='0'>
       <img src='images/rumble_logo.png' />
     </div>
 
-    <div id='azimuth-info' class='step rails-rumble-info' data-x='500' data-y='-500' data-scale='0.5' data-rotate='0'>
+    <div id='azimuth-create-hunt' class='step rumble azimuth' data-x='800' data-y='0' data-z='0' data-scale='0.5' data-rotate='0'>
+      <img src='images/azimuth-create-hunt.png' class='boxed' />
+    </div>
+
+    <div id='azimuth-facebook' class='step rumble azimuth' data-x='800' data-y='0' data-z='-500' data-scale='0.5' data-rotate='0'>
+      <img src='images/azimuth-facebook.png' class='boxed' />
+    </div>
+
+    <div id='azimuth-join-hunt' class='step rumble azimuth' data-x='800' data-y='0' data-z='-1000' data-scale='0.5' data-rotate='0'>
+      <img src='images/azimuth-join-hunt.png' class='boxed' />
+    </div>
+
+    <div id='azimuth-screenshot' class='step rumble azimuth' data-x='800' data-y='0' data-z='-1500' data-scale='0.5' data-rotate='0'>
+      <img src='images/azimuth-screenshot.png' class='boxed' />
+    </div>
+
+    <div id='azimuth-info' class='step rails-rumble-info' data-x='1400' data-y='0' data-scale='0.5' data-rotate='0'>
       <h2>Rails Rumble 2008</h2>
       <ul>
         <li><strong>app name:</strong> Azimuth</li>
@@ -137,7 +185,19 @@
       </ul>
     </div>
 
-    <div id='deprecateme-info' class='step rails-rumble-info' data-x='500' data-y='-300' data-scale='0.5' data-rotate='0'>
+    <div id='deprecateme-gempage' class='step rumble deprecateme' data-x='800' data-y='400' data-z='0' data-scale='0.5' data-rotate='0'>
+      <img src='images/deprecateme-gempage.png' class='boxed' />
+    </div>
+
+    <div id='deprecateme-depricated' class='step rumble deprecateme' data-x='800' data-y='400' data-z='-500' data-scale='0.5' data-rotate='0'>
+      <img src='images/deprecateme-deprecated.png' class='boxed' />
+    </div>
+
+    <div id='deprecateme-deprecated-list' class='step rumble deprecateme' data-x='800' data-y='400' data-z='-1000' data-scale='0.5' data-rotate='0'>
+      <img src='images/deprecateme-deprecated-list.png' class='boxed' />
+    </div>
+
+    <div id='deprecateme-info' class='step rails-rumble-info' data-x='1400' data-y='400' data-scale='0.5' data-rotate='0'>
       <h2>Rails Rumble 2010</h2>
       <ul>
         <li><strong>app name:</strong> Deprecate Me</li>
@@ -146,33 +206,28 @@
       </ul>
     </div>
 
-    <div id='agile' class='step agile' data-x='500' data-y='0' data-scale='0.5' data-rotate='0'>
+    <div id='agile' class='step' data-x='-1000' data-y='0' data-scale='1' data-rotate='0'>
       <h2>Agile Coaching and Training</h2>
-      <ul>
-        <li>Member of the AgileCville group</li>
-        <li>Best Practices Workshop: <a href='http://www.slideshare.net/ychaker/best-practices-seeqnce-2324022012' title='slides'>slides</a>, <a href='http://youtu.be/gnW5Fd6jBgI' title='Day one Video'>day one video</a>, <a href\='http://youtu.be/bxybT1V0oI0' title='day two video'>day two video</a></li>
-      </ul>
+      <img src='images/agilecville.jpg' class='boxed agilecville' />
     </div>
 
-
-    <div id='whichrubycmsshouldiuse' class='step' data-x='500' data-y='400' data-scale='0.5' data-rotate='0'>
-      <h2>Longest Domain Name?</h2>
-      <p>
-        Maybe not! But working for clients, the recurring theme is 'CMS'. As a Ruby guy, I wanted to find something to replace Drupal, Wordpress and Joomla in the Ruby sphere. So I documented what I did on this Jeckyll blog:
-      </p>
-      <p>
-        <a href='http://whichrubycmsshouldiuse.com/' target='_blank'>http://whichrubycmsshouldiuse.com/</a>
-      </p>
-      <p>
-        <img src='images/whichrubycmsshouldiuse.png' class='boxed' />
-      </p>
+    <div id='best-practices-slides' class='step workshop' data-x='-1400' data-y='-250' data-scale='0.5' data-rotate='0'>
+      <div style="width:595px" id="__ss_11765734"><iframe src="http://www.slideshare.net/slideshow/embed_code/11765734?rel=0" width="595" height="497" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe></div>
     </div>
 
-    <div id='oss' class='step' data-x='1100' data-y='-1350' data-scale='0.5' data-rotate='0'>
+    <div id='best-practices-day-one' class='step workshop' data-x='-1050' data-y='-250' data-scale='0.5' data-rotate='0'>
+      <object style="height: 390px; width: 640px"><param name="movie" value="http://www.youtube.com/v/gnW5Fd6jBgI?version=3&feature=player_profilepage"><param name="allowFullScreen" value="true"><param name="allowScriptAccess" value="always"><embed src="http://www.youtube.com/v/gnW5Fd6jBgI?version=3&feature=player_profilepage" type="application/x-shockwave-flash" allowfullscreen="true" allowScriptAccess="always" width="640" height="360"></object>
+    </div>
+
+    <div id='best-practices-day-two' class='step workshop' data-x='-700' data-y='-250' data-scale='0.5' data-rotate='0'>
+      <object style="height: 390px; width: 640px"><param name="movie" value="http://www.youtube.com/v/bxybT1V0oI0?version=3&feature=player_profilepage"><param name="allowFullScreen" value="true"><param name="allowScriptAccess" value="always"><embed src="http://www.youtube.com/v/bxybT1V0oI0?version=3&feature=player_profilepage" type="application/x-shockwave-flash" allowfullscreen="true" allowScriptAccess="always" width="640" height="360"></object>
+    </div>
+
+    <div id='oss' class='step' data-x='-1000' data-y='200' data-scale='1' data-rotate='0'>
       <h2>Open Source</h2>
     </div>
 
-    <div id='zeep-it' class='step' data-x='1100' data-y='-1200' data-scale='0.5' data-rotate='0'>
+    <div id='zeep-it' class='step' data-x='-1550' data-y='350' data-scale='0.5' data-rotate='0'>
       <h2>ZeepIt</h2>
       <p>
         ZeepIt is a Rails 2.3.x plugin that leverages the zeep-messaging gem to create the models, controllers, and views required to get your app ready to use the Zeep Mobile SMS service.
@@ -182,7 +237,7 @@
       </p>
     </div>
 
-    <div id='sample-apps' class='step' data-x='1100' data-y='-950' data-scale='0.5' data-rotate='0'>
+    <div id='sample-apps' class='step' data-x='-1100' data-y='350' data-scale='0.5' data-rotate='0'>
       <h2>Sample Apps</h2>
       <p>
         Useful 3.x apps that include the following an Accounts app that works as an oauth provider.
@@ -193,7 +248,7 @@
       </p>
     </div>
 
-    <div id='multi-recipient-threaded-messages' class='step' data-x='1100' data-y='-700' data-scale='0.5' data-rotate='0'>
+    <div id='multi-recipient-threaded-messages' class='step' data-x='-650' data-y='350' data-scale='0.5' data-rotate='0'>
       <h2>Multi Recipient Threaded Messages</h2>
       <p>
         A Rails 3.x plugin (soon to be gem) that provides basic private messaging functionality between the users of a site, with multi recipient capabilities.
@@ -203,7 +258,7 @@
       </p>
     </div>
 
-    <div id='solr-intro' class='step' data-x='1100' data-y='-450' data-scale='0.5' data-rotate='0'>
+    <div id='solr-intro' class='step' data-x='-1550' data-y='700' data-scale='0.5' data-rotate='0'>
       <h2>Solr</h2>
       <p>
         Solr is an open-source search server based on the Lucene Java search library. It is a very powerful tool but that has a steep learning curve and requires configuration in XML files.
@@ -214,7 +269,7 @@
       <p>So...</p>
     </div>
 
-    <div id='acts-as-solr' class='step' data-x='1100' data-y='-200' data-scale='0.5' data-rotate='0'>
+    <div id='acts-as-solr' class='step' data-x='-1550' data-y='700' data-z='-500' data-scale='0.5' data-rotate='0'>
       <h2>How Can We Make this Easier?</h2>
       <p>
         In the Ruby world, a couple of plugins/gems exist to help ease the pain. One of them is acts_as_solr.
@@ -230,7 +285,7 @@
       </p>
     </div>
 
-    <div id='sunspot' class='step' data-x='1100' data-y='50' data-scale='0.5' data-rotate='0'>
+    <div id='sunspot' class='step' data-x='-1550' data-y='700' data-z='-1000' data-scale='0.5' data-rotate='0'>
       <h2>But...</h2>
       <p>
         acts_as_solr was basically abandoned when another leader was introduced, which is the sunspot gem along with sunspot-rails.
@@ -240,7 +295,7 @@
       </p>
     </div>
 
-    <div id='sunspot-admin' class='step' data-x='1100' data-y='300' data-scale='0.5' data-rotate='0'>
+    <div id='sunspot-admin' class='step' data-x='-1550' data-y='700' data-z='-1500' data-scale='0.5' data-rotate='0'>
       <h2>Sunspot Admin</h2>
       <p>
         Yet again, using sunspot only gave developers a DSL and an interface to Solr but they still had to understand the underlying system to get it to work. Knowing the pain of it and how most basic application need a simpler plug and play solution, I created Sunspot Admin which makes managing Solr Search using the Sunspot gem easier. The purpose of this plugin is to provide an admin interface for non-technical people and allow for: Selecting which application models/attributes to index through a simple interface, manual reindexing, and starting the Solr server through the web admin.
@@ -250,7 +305,7 @@
       </p>
     </div>
 
-    <div id='sunspotify' class='step' data-x='1100' data-y='600' data-scale='0.5' data-rotate='0'>
+    <div id='sunspotify' class='step' data-x='-1550' data-y='700' data-z='-2000' data-scale='0.5' data-rotate='0'>
       <h2>Sunspotify</h2>
       <p>
         What I had done in Sunspot Admin was then extracted out and cleaned up into a better Rails plugin (the aim was then to make this a Radiant extension as well), called Sunspotify. It also gave default behavior for the search page with the ability to customize the views.
@@ -263,7 +318,7 @@
       </p>
     </div>
 
-    <div id='sunspotify-admin-pannel' class='step' data-x='1100' data-y='950' data-scale='0.5' data-rotate='0'>
+    <div id='sunspotify-admin-pannel' class='step' data-x='-1550' data-y='700' data-z='-2500' data-scale='0.5' data-rotate='0'>
       <div class='left'>
         <h2>This,</h2>
         <p>
@@ -277,7 +332,7 @@
       </div>
     </div>
 
-    <div id='cool' class='step' data-x='1100' data-y='1200' data-scale='0.5' data-rotate='0'>
+    <div id='cool' class='step' data-x='-1550' data-y='700' data-z='-3000' data-scale='0.5' data-rotate='0'>
       <div class='left'>
         <div class="power_button_base_border">
           <div class="power_button_base_gradient">
@@ -390,7 +445,7 @@
       </div>
     </div>
 
-    <div id='sunspotify-demo' class='step' data-x='1100' data-y='1400' data-scale='0.5' data-rotate='0'>
+    <div id='sunspotify-demo' class='step' data-x='-1550' data-y='700' data-z='-3500' data-scale='0.5' data-rotate='0'>
       <h2>Demo</h2>
       <p>
         I've setup a semi-functional demo for you to play around with (semi-functional because it uses a web service called Web Solr, that limits some functionality).
@@ -400,51 +455,25 @@
       </p>
     </div>
 
-    <div id='jogabo' class='step jogabo' data-x='1600' data-y='-300' data-scale='0.5' data-rotate='0'>
-      <a href='http://jogabo.com' title='Jogabo' target='_blank'><img src='images/jogabo.png' /></a>
+    <div id='whichrubycmsshouldiuse' class='step' data-x='-1000' data-y='700' data-scale='0.5' data-rotate='0'>
+      <h2>Longest Domain Name?</h2>
+      <p>
+        Maybe not! But working for clients, the recurring theme is 'CMS'. As a Ruby guy, I wanted to find something to replace Drupal, Wordpress and Joomla in the Ruby sphere. So I documented what I did on this Jeckyll blog:
+      </p>
+      <p>
+        <a href='http://whichrubycmsshouldiuse.com/' target='_blank'>http://whichrubycmsshouldiuse.com/</a>
+      </p>
+      <p>
+        <img src='images/whichrubycmsshouldiuse.png' class='boxed' />
+      </p>
     </div>
 
-    <div id='jogabo-info' class='step jogabo info' data-x='1600' data-y='-150' data-scale='0.5' data-rotate='0'>
-      <strong>Co-Founder</strong><br />
-      <strong>CTO</strong><br />
-      Virginia, Marrakech, Beirut, London, Paris, Santiago (Start-Up Chile)
-    </div>
-
-    <div id='jogabo-app' class='step jogabo app' data-x='1600' data-y='100' data-scale='0.5' data-rotate='0'>
-      Rails 3.0 -> Rails 3.2<br />
-      Ruby 1.9.2 -> Ruby 1.9.3<br />
-      TDD, BDD (RSpec, Cucumber), Heroku, Linode, Janrain, Postmark, New Relic, Woopra, KISSmetrics, 37signals suite
-    </div>
-
-    <div id='tedxbeirut' class='step' data-x='2200' data-y='-300' data-scale='1' ddata-rotate='0'>
+    <div id='tedxbeirut' class='step' data-x='0' data-y='600' data-z='600' data-scale='1' data-rotate-x='-90' data-rotate-y='0'>
       <img src='images/TEDxBeirut-logo.png' /><br />
       <img src='images/tedxbeirut.png' />
     </div>
 
-    <div id='i-am-youssef-chaker' class='step' data-x='2200' data-y='300' data-scale='1' ddata-rotate='0'>
-      <div class='left'>
-        <img src='images/iamyoussefchaker.jpg' />
-
-        <p>
-          Watch my Arabnet 2012 pitch <a href='http://youtu.be/qJHyDT6X2Do' title='I Am Youssef Chaker'>here</a>
-        </p>
-      </div>
-      <div class='right'>
-        <div class='twitter'>
-          <blockquote class="twitter-tweet"><p>My boy @<a href="https://twitter.com/ychaker">ychaker</a> went all patriotic on us :D good luck amigo <a href="https://twitter.com/search/%2523ArabNetME">#ArabNetME</a></p>&mdash; Liliane A (@FunkyOzzi) <a href="https://twitter.com/FunkyOzzi/status/185325532420902912" data-datetime="2012-03-29T11:20:24+00:00">March 29, 2012</a></blockquote>
-
-          <!-- <blockquote class="twitter-tweet"><p>“@<a href="https://twitter.com/amghattas">amghattas</a>: وهلق لوين ! ختام رائع لفكرة رائعه خجوله <a href="https://twitter.com/search/%2523arabnetme">#arabnetme</a>” cc. @<a href="https://twitter.com/ychaker">ychaker</a></p>&mdash; Layal Gebrane (@iPr1ncess) <a href="https://twitter.com/iPr1ncess/status/185329540229378048" data-datetime="2012-03-29T11:36:20+00:00">March 29, 2012</a></blockquote> -->
-
-          <blockquote class="twitter-tweet"><p>He is Youssef Chaker and he rocks @<a href="https://twitter.com/ychaker">ychaker</a> <a href="https://twitter.com/search/%2523arabnetme">#arabnetme</a></p>&mdash; Abir G (@AbirGhattas) <a href="https://twitter.com/AbirGhattas/status/185324711570452480" data-datetime="2012-03-29T11:17:09+00:00">March 29, 2012</a></blockquote>
-
-          <!-- <blockquote class="twitter-tweet"><p>@<a href="https://twitter.com/ychaker">ychaker</a> you humbled us today. excellent delivery and passion :)</p>&mdash; Samer Karam (@SamerKaram) <a href="https://twitter.com/SamerKaram/status/185426640699002880" data-datetime="2012-03-29T18:02:10+00:00">March 29, 2012</a></blockquote> -->
-
-          <script src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-        </div>
-      </div>
-    </div>
-
-    <div id='overview' class='step' data-x='0' data-y='0' data-scale='4'>
+    <div id='overview' class='step' data-x='0' data-y='0' data-scale='3'>
     </div>
   </div>
 
@@ -458,20 +487,20 @@
   </script>
 
   <script src="js/impress.js"></script>
-  <script>impress().init();</script>
+  <script>impress();</script>
 
   <script type="text/javascript">
 
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-20063217-1']);
-    _gaq.push(['_setDomainName', 'youhoo.im']);
-    _gaq.push(['_trackPageview']);
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-20063217-1']);
+  _gaq.push(['_setDomainName', 'youhoo.im']);
+  _gaq.push(['_trackPageview']);
 
-    (function() {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
 
   </script>
 
